@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-  "torch>=2.3.0"
+  "ipython>=8.31.0",
+  "jupyterlab>=4.3.4",
+  "numpy>=2.2.1",
+  "torch>=2.3.0",
 ]
 
 
@@ -17,8 +20,3 @@ name = "pytorch-cu121"
 url = "https://download.pytorch.org/whl/cu121"
 explicit = true
 
-[dependency-groups]
-book = [
-    "ipython>=8.31.0",
-    "jupyterlab>=4.3.4",
-]
