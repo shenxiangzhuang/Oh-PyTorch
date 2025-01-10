@@ -4,9 +4,21 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+  "torch>=2.3.0"
+]
 
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu121" }
 
 [[tool.uv.index]]
-name = "tuna"
-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simplee"
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true
+
+[dependency-groups]
+book = [
+    "ipython>=8.31.0",
+    "jupyterlab>=4.3.4",
+]
