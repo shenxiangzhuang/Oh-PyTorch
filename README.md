@@ -3,7 +3,7 @@
 
 ## 环境配置
 
-### 安装UV
+### 安装 UV
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
