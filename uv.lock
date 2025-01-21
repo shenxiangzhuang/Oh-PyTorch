@@ -1034,6 +1034,7 @@ dependencies = [
     { name = "jupyterlab" },
     { name = "marimo" },
     { name = "numpy" },
+    { name = "ruff" },
     { name = "torch" },
 ]
 
@@ -1043,6 +1044,7 @@ requires-dist = [
     { name = "jupyterlab", specifier = ">=4.3.4" },
     { name = "marimo", specifier = ">=0.10.10" },
     { name = "numpy", specifier = ">=2.2.1" },
+    { name = "ruff", specifier = ">=0.9.0" },
     { name = "torch", specifier = ">=2.3.0", index = "https://download.pytorch.org/whl/cu121" },
 ]
 
